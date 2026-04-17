@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengalihkan Halaman...</title>
+
+    <!-- LAPIS 1: Pengalihan Otomatis via Meta Tag (0 detik) -->
+    <!-- UBAH LINK DI BAWAH INI DENGAN LINK TUJUAN ANDA -->
+    <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbwxtaY51oQFhJckrAod0TLin4MY3tD1ilfZ-ft36hUloQABvlOODyGHcJyoY0fsFRhokA/exec">
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            max-width: 400px;
+            width: 90%;
+        }
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #0e7adb;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        h2 { margin-top: 0; color: #1a1a1a; }
+        p { color: #666; font-size: 14px; margin-bottom: 25px; line-height: 1.5; }
+        .btn {
+            display: inline-block;
+            background-color: #0e7adb;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        .btn:hover { background-color: #0b5fa8; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="spinner"></div>
+        <h2>Mengalihkan...</h2>
+        <p>Mohon tunggu sebentar, Anda sedang diarahkan ke dokumen/halaman tujuan.</p>
+        
+        <!-- LAPIS 3: Tombol Manual (Jika browser memblokir pengalihan otomatis) -->
+        <!-- UBAH LINK DI BAWAH INI DENGAN LINK TUJUAN ANDA -->
+        <a href="https://script.google.com/macros/s/AKfycbwxtaY51oQFhJckrAod0TLin4MY3tD1ilfZ-ft36hUloQABvlOODyGHcJyoY0fsFRhokA/exec" class="btn">Klik di sini jika tidak dialihkan</a>
+    </div>
+
+    <!-- LAPIS 2: Pengalihan via JavaScript (Sebagai cadangan) -->
+    <script>
+        // UBAH LINK DI BAWAH INI DENGAN LINK TUJUAN ANDA
+        var targetURL = "https://script.google.com/macros/s/AKfycbwxtaY51oQFhJckrAod0TLin4MY3tD1ilfZ-ft36hUloQABvlOODyGHcJyoY0fsFRhokA/exec";
+        
+        setTimeout(function() {
+            window.location.href = targetURL;
+        }, 500); // Jeda 0.5 detik sebelum dialihkan via JS
+    </script>
+
+</body>
+</html>
